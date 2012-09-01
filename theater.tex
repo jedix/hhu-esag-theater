@@ -1,0 +1,188 @@
+\documentclass{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{play}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xspace}
+\titleformat{\section}{\bf}{Szene \thesection:\quad}{0em}{}
+\itemindent 0pt
+%
+%        BEGIN: Utilities
+%
+\newcommand{\s}[1]{\speaker #1}
+\newcommand{\regie}{\longdirection}
+\newcommand{\kregie}{\shortdirection}
+\newcommand{\charaktere}[1]{\regie{\textbf{Charaktere:} #1}}
+\newcommand{\setting}[1]{\regie{\textbf{B{\"u}hnenbild:} #1}}
+\newcommand{\hauptbeamer}[1]{\regie{\textbf{Hauptbeamer:} #1}}
+\newcommand{\sound}[1]{\regie{\textbf{Sound:} #1}}
+\newcommand{\licht}[1]{\regie{\textbf{Licht:} #1}}
+\newcommand{\requisiten}[1]{\regie{\textbf{Requisiten:} #1}}
+\newcommand{\technik}{\xspace\shortdirection}
+%g\newcommand{\technik}[1]{}
+%
+%        END: Utilities
+%
+%
+%        BEGIN:  Charaktere
+%
+%Simpsons
+\newcommand{\Frodo}{Frodo\xspace}
+%QED
+\newcommand{\QEDHost}{QEDHost \xspace}
+\newcommand{\QEDGuestA}{QEDGuestA\xspace}
+\newcommand{\QEDGuestB}{QEDGuestB\xspace}
+\newcommand{\QEDGuestC}{QEDGuestC\xspace}
+
+%
+%        END:  Charaktere
+%
+
+\begin{document}
+%
+%        BEGIN: Titelseite
+%
+\title{ESAG-Theater 2012}
+\author{}
+\date{Letzte "Anderung: \today}
+\maketitle
+\tableofcontents
+%
+%        END:        Titelseite
+%
+%
+%        BEGIN: Zusammenfassung Charaktere
+%
+\newpage
+\textbf{Charaktere}
+\begin{verseplay}[10em]
+\s{\Frodo}
+        \kregie{Schauspieler} \kregie{Szene \ref{sec}}\\
+        Kurzbeschreibung
+\end{verseplay}
+
+\include{sketche/band1}
+    
+\include{sketche/kazoointro}
+
+%
+% BEGIN: SW HdR Intro
+%
+\newpage
+\section{Intro}
+  \label{Intro}
+    \charaktere{Vorleser, }
+     \setting{Rednerpult bei Band}
+    \hauptbeamer{Video Intro abspielen}
+    \sound{}
+    \licht{}
+    \requisiten{}
+\regie{Text von Video:}
+Es war einmalvor langer Zeit in einer weit, weit entfernten Galaxis... .\\
+\regie{Star Wars Schriftzug}
+Das Universium ist im Wandel\\
+Ich sp"ure es im Vakuum \\
+Ich sp"ure es im Raum\\
+Ich rieche es im "Ather\\
+\regie{nicht zu Nachahmungszwecken empfholen}
+Vieles was einst war ist verloren, da niemand mehr lebt, der sich erinnert.\\
+Alles begann mit dem Schmieden der gro"sen Pr"ufungsordnungen...\\
+\regie{Orignal HdR Video einspielen. Text auch ins Video., eventuell einzelne Bilder in Video.}
+Drei wurden der Inphima gegeben, unsterblich, und die weisesten und reinsten aller Lebewesen.\\
+Sieben den Medizinern, gro"se Quaksalber und geschickte Metzger, in ihren Hallen aus Backstein.\\
+Und neun, neun Pr"ufungsordnungen wurden den Wirtschaftswissenschaftlern geschenkt,\\
+die vor allem anderen nach Macht streben.\\
+Denn diese Pr"ufungsordnungen bargen die St"arke und den Willen jede Fakult"at zu leiten.\\
+Doch sie wurden alle betrogen!\\
+Denn es wurde noch eine Pr"ufungsordnung gefertigt\\
+In der Verwaltung, in der Tiefe des Rektorats, schmiedete der dunkle Rektor Sauron heimlich eine Rahmenpr"ufungsordnung,\\
+um alle anderen zu beherrschen.\\
+In diese Pr"ufungsordnung floss seine Grausamkeit, seine Bosheit, und sein Wille alle Freiheit zu unterdr"ucken.\\
+\regie{Stimme aus dem Off als Chor:}
+Eine Pr"ufungsordnung sie zu knechten, 
+sie alle zu finden, 
+ins Dunkel zu treiben 
+und ewig zu binden\\
+ \regie{Einzelne Stimme aus dem Off:}
+Min Gôr bauglo hain phain, \\
+min Gôr chebo hain, \\
+Min Gôr togo hain phain, \\
+ned duir gwedho hain.\\
+ Das war Elbisch.\\
+ \regie{Sendung mit der Maus Melodie.}
+%END: SW HdR Intro
+%
+
+%
+% BEGIN:
+%
+\newpage
+\section{}
+  \label{sec}
+    \charaktere{}
+     \setting{}
+    \hauptbeamer{}
+    \sound{}
+    \licht{}
+    \requisiten{}
+    
+    \regie{}
+%END:
+%
+
+ %
+% BEGIN: Teil 2
+%
+\newpage
+\section{Teil 2}
+  \label{sec:Teil2}
+    \charaktere{}
+     \setting{}
+    \hauptbeamer{}
+    \sound{}
+    \licht{}
+    \requisiten{}
+    
+    \regie{Video: Die Pr"ufungsordnung wird wieder aus dem M"ull geholt und zusammengeklebt. Text: Die Pr"ufungsordnung schl"agt zur"uck\\
+    ABSPANN\\
+    Die R"uckkehr der Inphima. Pr"ufungsordnung wird brutaler wieder kaputt gemacht.}
+    
+% END:
+%
+
+%
+%BEGIN: Band Ende
+%
+\newpage
+\section{BandEnde}
+  \label{sec:BandEnde}
+    \charaktere{}
+     \setting{}
+    \hauptbeamer{}
+    \sound{}
+    \licht{}
+    \requisiten{}
+    
+\regie{8 Leute mit Nummern auf dem R"ucken f"ur Modulo Erkl"arung}
+%END: Band Ende
+%
+%
+%        BEGIN:  Band, Ende
+%
+\newpage
+\section{Band, Ende -- Schlumpflied}
+\label{sec:BandTeilA}
+        \charaktere{}
+        \setting{}
+        \hauptbeamer{}
+        \sound{}
+        \licht{}
+        \requisiten{}
+%        END: Band, Ende
+%
+
+\include{sketche/qed}
+
+\end{document}
