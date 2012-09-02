@@ -25,17 +25,25 @@
 %
 %        END: Utilities
 %
+
+
 %
 %        BEGIN:  Charaktere
 %
-%Simpsons
+
+% Hauptcharaktere
 \newcommand{\Frodo}{Frodo\xspace}
-%QED
-\newcommand{\QEDHost}{QEDHost \xspace}
+\newcommand{\Gandalf}{Gandalf\xspace}
+\newcommand{\Sam}{Sam\xspace}
+\newcommand{\Legolas}{Legolars\xspace}
+\newcommand{\Gimli}{Giml1\xspace}
+\newcommand{\Monk}{Monk\xspace}
+
+% QED
+\newcommand{\QEDHost}{George \xspace}
 \newcommand{\QEDGuestA}{QEDGuestA\xspace}
 \newcommand{\QEDGuestB}{QEDGuestB\xspace}
 \newcommand{\QEDGuestC}{QEDGuestC\xspace}
-
 
 %
 %        END:  Charaktere
@@ -60,7 +68,7 @@
 \textbf{Charaktere}
 \begin{verseplay}[10em]
 \s{\Frodo}
-        \kregie{Schauspieler} \kregie{Szene \ref{sec}}\\
+        \kregie{Schauspieler} \kregie{Szene \ref{sec:frodo-findet-po}}\\
         Kurzbeschreibung
 \end{verseplay}
 
@@ -70,26 +78,11 @@
 
 \include{sketche/vorspann}
 
-%
-% BEGIN:
-%
-\newpage
-\section{}
-  \label{sec}
-    \charaktere{}
-     \setting{}
-    \hauptbeamer{}
-    \sound{}
-    \licht{}
-    \requisiten{}
-    
-    \regie{}
-%END:
-%
+\include{sketche/frodopruefungsordnung}
 
 \include{sketche/abspann}
 
-\include{sektche/bandende}
+\include{sketche/bandende}
 
 \include{sketche/qed}
 
