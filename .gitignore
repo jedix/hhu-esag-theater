@@ -20,8 +20,12 @@
 *.ps
 *.snm
 *.synctex.gz
+*.tex.backup
+*.tex~
 *.toc
 *.vrb
 *.maf
 *.mtc
 *.mtc0
+*.pdf
+.directory
